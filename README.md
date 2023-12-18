@@ -218,7 +218,7 @@ forward slashes `/`.
 
 pytest uses a double colon `::` to navigate from the file itself down to classes
 and functions. Since we don't have any classes in our tests, we can run
-`pytest lib/testing/bool_test.py::test_return_true` to look into this error
+`pytest lib/testing/subdirectory/bool_test.py::test_return_true` to look into this error
 specifically.
 
 ```console
